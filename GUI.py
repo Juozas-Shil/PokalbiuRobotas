@@ -22,26 +22,25 @@ base = Tk()
 base.title("Hello")
 base.geometry("400x500")
 
-# Create Chat window
+# Sukuriamas chato langas
 chat_log = Text(base, bd=0, bg="white", height="8", width=50, font="Arial", )
 
 chat_log.config(state=DISABLED)
 
-# Bind scrollbar to Chat window
+# Pridedamas scrollbar chato lange
 scrollbar = Scrollbar(base, command=chat_log.yview, cursor="heart")
 chat_log['yscrollcommand'] = scrollbar.set
 
-# Create Button to send message
+# Sukuriamas mygtukas send issiusti zinutei
 send_button = Button(base, font=("Verdana", 12, 'bold'), text="Send", width="12", height=5,
                      bd=0, bg="#32de97", activebackground="#3c9d9b", fg='#ffffff',
                      command=send)
 
-# Create the box to enter message
+# Sukuriamas langas kur ivedamas tekstas
 entry_box = Text(base, bd=0, bg="white", width=29, height="5", font="Arial")
 # EntryBox.bind("<Return>", send)
 
 
-# Place all components on the screen
 scrollbar.place(x=376, y=6, height=386)
 chat_log.place(x=6, y=6, height=386, width=370)
 entry_box.place(x=128, y=401, height=90, width=265)

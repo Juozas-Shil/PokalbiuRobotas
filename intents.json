@@ -1,8 +1,7 @@
 {"intents": [
   {"tag":  "labas",
   "patterns":  ["labas", "sveikas", "labas rytas", "laba diena", "sveiki", "labas vakaras", "kaip laikaisi?", "kas naujesnio?"],
-  "responses":  ["Labas", "Sveikas", "Kuo galiu padeti?", "Kuom galeciau buti naudingas?"],
-    "context_set": ""
+  "responses":  ["Labas", "Sveikas", "Kuo galiu padeti?", "Kuom galeciau buti naudingas?"]
   },
   {"tag":  "viso gero",
   "patterns":  ["viso gero", "viso", "iki susitikimo", "iki", "ate", "iki kito karto", "buvo smagu pasikalbeti"],

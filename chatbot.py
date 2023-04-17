@@ -45,6 +45,7 @@ def predict_class(sentence):
     return return_list
 
 
+# si funkcija skirta gauti atsakyma is numatytu atsakymu.
 def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
