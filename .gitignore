@@ -1,0 +1,5 @@
+chatbot_model.h5
+classes.pkl
+words.pkl
+.idea
+__pycache__/

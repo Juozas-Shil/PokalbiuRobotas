@@ -1,0 +1,51 @@
+{"intents": [
+  {"tag":  "labas",
+  "patterns":  ["labas", "sveikas", "labas rytas", "laba diena", "sveiki", "labas vakaras", "kaip laikaisi?", "kas naujesnio?"],
+  "responses":  ["Labas", "Sveikas", "Kuo galiu padeti?", "Kuom galeciau buti naudingas?"],
+    "context_set": ""
+  },
+  {"tag":  "viso gero",
+  "patterns":  ["viso gero", "viso", "iki susitikimo", "iki", "ate", "iki kito karto", "buvo smagu pasikalbeti"],
+  "responses":  ["Viso gero", "Viso", "Ate", "Iki susitikimo", "Geros dienos"]
+  },
+  {"tag":  "vardas",
+  "patterns":  ["koks tavo vardas?", "Kuo tu vardu?", "Kaip į tavę kreiptis?"],
+  "responses":  ["Mano vardas Walle", "Gali mane vadinti Walle", "As esu Walle, o kuo tu vardu?"]
+  },
+  {"tag":  "parduotuve",
+  "patterns":  ["ką galėčiau pas jus įsigytį?", "ką turite pasiūlyti?", "kuo prekiaujate?"],
+  "responses":  ["Mes prekiaujame išmaniasiais telefonais", "Turime didelį pasirinkimą išmaniųjų telefonų"]
+  },
+  {"tag":  "Darbo laikas",
+  "patterns":  ["iki kelių jus dirbate?", "Ar dirbate savaitgaliais?"],
+  "responses":  ["Mes esame internetinė parduotuvė prekes galite užsisakyti kada jums tik patogu"]
+  },
+  {"tag":  "rekomendacija",
+  "patterns":  ["koki telefona rekomenduotumet?"],
+  "responses":  ["Kokios operacinės sistemos norėtumet? Android ar ios?"]
+  },
+  {"tag":  "android",
+  "patterns":  ["android"],
+  "responses":  ["Kokios klasės telefono norėtumėt premium? ar eko?"]
+  },
+  {"tag":  "android1",
+  "patterns":  ["premium"],
+  "responses":  ["Tuomet jum pasiulyčiau Samsung gaxaly s23 Ultra naujausia išmanuji telefoną"]
+  },
+  {"tag":  "android2",
+  "patterns":  ["eko"],
+  "responses":  ["Tuomet jum pasiulyčiau Samsung gaxaly a54 naujausia išmanuji telefoną"]
+  },
+  {"tag":  "rekomendacija3",
+  "patterns":  ["ios"],
+  "responses":  ["Su didesniu ar mažesniu ekranu?"]
+  },
+  {"tag":  "rekomendacija4",
+  "patterns":  ["didesniu"],
+  "responses":  ["Tuomet siulyčiau iphone 14 Pro Max"]
+  },
+  {"tag":  "rekomendacija5",
+  "patterns":  ["mažesniu"],
+  "responses":  ["Tuomet siulyčiau iphone 14 "]
+  }
+]}
