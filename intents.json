@@ -1,50 +1,54 @@
 {"intents": [
-  {"tag":  "labas",
-  "patterns":  ["labas", "sveikas", "labas rytas", "laba diena", "sveiki", "labas vakaras", "kaip laikaisi?", "kas naujesnio?"],
-  "responses":  ["Labas", "Sveikas", "Kuo galiu padeti?", "Kuom galeciau buti naudingas?"]
+  {"tag":  "greetings",
+  "patterns":  ["Hi there", "How are you", "Hey", "Hola", "Hello", "Good day"],
+  "responses":  ["Hello", "Good to see you again", "Hi there, how can I help?", "Hi"]
   },
-  {"tag":  "viso gero",
-  "patterns":  ["viso gero", "viso", "iki susitikimo", "iki", "ate", "iki kito karto", "buvo smagu pasikalbeti"],
-  "responses":  ["Viso gero", "Viso", "Ate", "Iki susitikimo", "Geros dienos"]
+  {"tag":  "goodbye",
+  "patterns":  ["Bye", "see you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+  "responses":  ["Bye", "Goodbye", "See you!", "Have a nice day", "Bye! Come back again"]
   },
-  {"tag":  "vardas",
-  "patterns":  ["koks tavo vardas?", "Kuo tu vardu?", "Kaip į tavę kreiptis?"],
-  "responses":  ["Mano vardas Walle", "Gali mane vadinti Walle", "As esu Walle, o kuo tu vardu?"]
+  {"tag":  "thanks",
+  "patterns":  ["Thanks", "Thank you", "That's helpful", "Awesom, thanks", "Thanks for helping me"],
+  "responses":  ["Happy to help!", "Any time", "My pleasure"]
   },
-  {"tag":  "parduotuve",
-  "patterns":  ["ką galėčiau pas jus įsigytį?", "ką turite pasiūlyti?", "kuo prekiaujate?"],
-  "responses":  ["Mes prekiaujame išmaniasiais telefonais", "Turime didelį pasirinkimą išmaniųjų telefonų"]
+  {"tag":  "name",
+  "patterns":  ["What's your name", "Who are you", "What is your name?", "What should I call you?"],
+  "responses":  ["You can call me Jason", "I'm Jason", "I'm chatbot Jason"]
   },
-  {"tag":  "Darbo laikas",
-  "patterns":  ["iki kelių jus dirbate?", "Ar dirbate savaitgaliais?"],
-  "responses":  ["Mes esame internetinė parduotuvė prekes galite užsisakyti kada jums tik patogu"]
+  {"tag":  "shop",
+  "patterns":  ["I would like to buy something?", "What are your products?", "What are you selling?"],
+  "responses":  ["We selling mobile phones", "You can buy smart phones"]
   },
-  {"tag":  "rekomendacija",
-  "patterns":  ["koki telefona rekomenduotumet?"],
-  "responses":  ["Kokios operacinės sistemos norėtumet? Android ar ios?"]
+  {"tag":  "recommendation",
+  "patterns":  ["What phone you recommend to buy?"],
+  "responses":  ["What operating system would you like? Android or iOS?"]
   },
   {"tag":  "android",
-  "patterns":  ["android"],
-  "responses":  ["Kokios klasės telefono norėtumėt premium? ar eko?"]
+  "patterns":  ["Android"],
+  "responses":  ["What brand of phone would you like? Samsung, Huawei, Xiaomi?"]
   },
-  {"tag":  "android1",
-  "patterns":  ["premium"],
-  "responses":  ["Tuomet jum pasiulyčiau Samsung gaxaly s23 Ultra naujausia išmanuji telefoną"]
+   {"tag":  "samsung",
+  "patterns":  ["Samsung"],
+  "responses":  ["What class of phone do you want, S or A?"]
   },
-  {"tag":  "android2",
-  "patterns":  ["eko"],
-  "responses":  ["Tuomet jum pasiulyčiau Samsung gaxaly a54 naujausia išmanuji telefoną"]
+  {"tag":  "SamsungS",
+  "patterns":  ["S"],
+  "responses":  ["Then I would like to offer you Samsung Galaxyy s23 Ultra, the latest smartphone"]
   },
-  {"tag":  "rekomendacija3",
-  "patterns":  ["ios"],
-  "responses":  ["Su didesniu ar mažesniu ekranu?"]
+  {"tag":  "SamsungA",
+  "patterns":  ["A"],
+  "responses":  ["Then I would like to offer you Samsung Galaxy A54, the latest smartphone"]
   },
-  {"tag":  "rekomendacija4",
-  "patterns":  ["didesniu"],
-  "responses":  ["Tuomet siulyčiau iphone 14 Pro Max"]
+   {"tag":  "Huawei",
+  "patterns":  ["Huawei"],
+  "responses":  ["Then I would like to offer you Huawei Mate 50 Pro, the latest smartphone"]
   },
-  {"tag":  "rekomendacija5",
-  "patterns":  ["mažesniu"],
-  "responses":  ["Tuomet siulyčiau iphone 14 "]
+   {"tag":  "Xiaomi",
+  "patterns":  ["Xiaomi"],
+  "responses":  ["Then I would like to offer you Xiaomi 13, the latest smartphone"]
+  },
+  {"tag":  "Ios",
+  "patterns":  ["Ios"],
+  "responses":  ["I could offer three options: iphone 14 pro max, iphone 14 pro and iphone 14"]
   }
 ]}

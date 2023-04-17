@@ -15,7 +15,7 @@ words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
 
-
+#Sutvarko ivesta teksta.
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
@@ -31,7 +31,7 @@ def bag_of_words(sentence):
                 bag[i] = 1
     return np.array(bag)
 
-
+# si funkcija skirta atpazinti teksta ir sugeneruoti atsakyma pagal uzduota klausima ar sakini.
 def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
@@ -55,7 +55,7 @@ def get_response(intents_list, intents_json):
             break
     return result
 
-
+# pagrindine funkcija kuri apjungia visas auksciau aprasytas funkcijas. Ir pateikia galutini chatbot atsakyma.
 def chatbot_response(msg):
     ints = predict_class(msg)
     res = get_response(ints, intents)
